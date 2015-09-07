@@ -37,7 +37,7 @@ the fields which you want to validate.
 3) Then you can give appropriate data attributes to validate
 
 ##For example
-
+```
 <!-- Number validation -->
 <div class="form-group">
 		<input type="text" class="mano" data-validate-id="true" name="mobille" 
@@ -53,6 +53,8 @@ the fields which you want to validate.
 		data-validate-email="true"
 		>
 </div>
+```
+
 
 Once you done with your forms you have to pass the form  to our validation.js (To say which form you have to 
 validate)
