@@ -58,13 +58,13 @@ Once you done with your forms you have to pass the form  to our validation.js (T
 validate)
 
 ##Javascript
-
+```
 <script type="text/javascript">
 	$(document).ready(function() {
 		var form = $('#test-form');
 		validation(form);
 	})
 </script>
-
+```
 
 
