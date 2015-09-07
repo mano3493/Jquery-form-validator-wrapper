@@ -32,7 +32,7 @@ you can find the CDN at https://cdnjs.com/#q=jquery and https://cdnjs.com/#q=jqu
 
 1) Your form should contain the ```<div class="form-group"></div>``` as a parent of all your form fields.
 
-2) You have to give the data attribute data-validate-id as "true" like  ```<div class="form-group" data-valiadate-id="true"></div>```.
+2) You have to give the data attribute data-validate-id as "true" like  ```<div class="form-group" data-validate-id="true"></div>```.
 
 3) Then you can give appropriate data attributes to validate
 
