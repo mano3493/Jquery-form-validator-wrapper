@@ -32,8 +32,7 @@ you can find the CDN at https://cdnjs.com/#q=jquery and https://cdnjs.com/#q=jqu
 
 1) Your form should contain the ```<div class="form-group"></div>``` as a parent of all your form fields.
 
-2) You have to give the data attribute ```<div class="form-group" data-valiadate-id="true"></div>``` data-validate-id ="true", for 
-the fields which you want to validate.
+2) You have to give the data attribute data-validate-id as "true" like  ```<div class="form-group" data-valiadate-id="true"></div>```.
 
 3) Then you can give appropriate data attributes to validate
 
@@ -57,8 +56,8 @@ the fields which you want to validate.
 ```
 
 
-Once you done with your forms you have to pass the form  to our validation.js (To say which form you have to 
-validate)
+Once you are done with your forms, you have to pass the form to our validation.js for validation. (Eg: form 
+variable is passed to validation in the snippet below)
 
 ##Javascript
 ```
