@@ -12,7 +12,7 @@ Before starting you have to add the Jquery and Jquery-Validator plugin to your p
 you can find the CDN here https://cdnjs.com/#q=jquery , https://cdnjs.com/#q=jquery+validator
 
 ## Quick example
-
+```
 <form id="test-form">
 	<div class="form-group">
 		<input type="text" class="mano" data-validate-id="true" name="firstname" data-validate-required="true">
@@ -28,6 +28,7 @@ you can find the CDN here https://cdnjs.com/#q=jquery , https://cdnjs.com/#q=jqu
 	</div>
 	<input type="submit" value="submit">
 </form>
+```
 
 1) Your form should contain the "<div class="form-group"></div>" as a parent of all your form fields.
 
